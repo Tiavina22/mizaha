@@ -1,0 +1,129 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+body{
+	background-color: white;
+	height: 100vh;
+	overflow-y: scroll;
+}
+*{
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+.logoImg{
+	width: 32px;
+	height: 32px;
+}
+.logoSection{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30%;
+}
+.naissanceSection{
+	display: flex;
+	width: 100ù;
+	flex-direction: row;
+}
+.inscription{
+	width: 20%;
+	margin-left: 40%;
+	position: relative;
+	top: 20px;
+}
+.naissance input{
+	width: 74%;
+}
+label, h1, .textLogo{
+	font-family: poppinsBold;
+}
+p{
+	font-size: 14px;
+}
+p, span{
+	text-align: center;
+}
+p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+span{
+	font-size: 12px;
+}
+label{
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1{
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+input{
+	width: 350px;
+	padding: 8px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+form{
+	line-height: 30px;
+}
+.textLogo{
+	margin-left: 10px;
+	font-family: poppinsBold;
+	justify-content: center;
+	align-content: center;
+	align-content: center;
+}
+.sectionAccept div label{
+	font-family: poppins;
+	font-size: 12px;
+	margin-left: 5px;
+	line-height: 18px;
+}
+.sectionAccept div{
+	display: flex;
+	margin-top: 20px;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+}
+.sectionAccept div input{
+	width: 20px;
+	height: 20px;
+}
+a{
+	color: #5FB96A;
+}
+.texteSection{
+	margin-top: 20px;
+}
+.texte{
+	line-height: 15px;
+	font-family: poppins;
+	font-size: 11px;
+}
+button{
+	background-color: #5FB96A;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	width: 40%;
+	margin-top: 20px;
+	margin-left: 30%;
+	font-family: poppinsBold;
+}
+.null{
+	height: 50px;
+	width: 10px;
+}
+.directionConnexionTexte{
+	margin-top: 25px;
+}

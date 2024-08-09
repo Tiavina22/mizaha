@@ -1,0 +1,60 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+*{
+    font-family: poppins;
+    margin: 0;
+    color: white;
+    padding: 0;
+    overflow-y: hidden;
+}
+.endroit-card{
+    transition: all 0.3s ease;
+}
+.endroit-card:hover{
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.endroit-card img{
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+.endroit-card:hover img{
+    opacity: 0.8s;
+}
+.endroit-card h3, .bindEndroits p{
+    transition: color 0.3s ease;
+}
+#btn_deconnecter{
+    transition: all 0.3s ease;
+}
+#btn_deconnecter:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.btn{
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.5);
+    width: 70%;
+    margin-left: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.btn_budget,.btn_preference{
+    transition: all 0.3s ease;
+}
+.btn_budget:hover, .btn_preference:hover{
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+}
+.btn_preference{
+    cursor: pointeur;
+}

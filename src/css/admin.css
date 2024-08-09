@@ -1,0 +1,102 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+*{
+    font-family: poppins;
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    overflow-y: hidden;
+}
+.buttonSeDeconnecter{
+    position: relative;
+    margin-top: -7px;
+    margin-right: 15px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px;
+    line-height: 40px;
+    width: 38px;
+    height: 38px;
+    background-color:#101010;
+}
+.topAdmin{
+    background-color: #1D1D1D;
+    display: flex;
+    padding: 15px;
+    height: 3%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.topAdmin .child{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.topAdmin .child p{
+    margin-left: 15px;
+}
+.admin{
+    width: 100%;
+    height: 100%;
+}
+.appAdmin{
+    display: flex;
+    padding: 10px;
+    height: 92%;
+    flex-direction: row;
+}
+#form{
+    background-color: #181818;
+    margin-right: 10px;
+    width: 25%;
+    border-radius: 10px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    background-color: #1D1D1D;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin:5px;
+    justify-content: center;
+}
+.title p{
+    margin-left: 15px;
+}
+form button{
+    background-color: #1ED760;
+    border:none;
+    color: white;
+    padding: 10px;
+    font-family: poppinsBold;
+    border-radius: 15px;
+    width: 78%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+form{
+    margin-left: 50px;
+    line-height: 50px;
+}
+.guideForme{
+    line-height: 42px;
+}
+input{
+    background-color: #181818;
+    padding: 5px;
+    border-radius: 5px;
+    width: 300px;
+}

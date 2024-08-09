@@ -1,0 +1,78 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+body{
+	background-color: #1D1D1D;
+	height: 100vh;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: white;
+}
+.login{
+	background-color: #000;
+	height: 90%;
+	margin-left: 30%;
+	position: relative;
+	top: 35px;
+	width: 40%;
+	border-radius: 20px;
+}
+h1{
+	font-family: poppinsBold;	
+	font-size: 26px;
+	line-height: 150px;
+	text-align: center;
+}
+button{
+	background-color: #1ED706;
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+	width: 84%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+p, a{
+	text-align: center;
+	line-height: 50px;
+}
+.ligne{
+	width: 80%;
+	background-color: #1D1D1D;
+	height: 4px;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+label{
+	font-family: poppinsBold;
+}
+form{
+	width: 50%;
+	margin-left: 30%;
+	margin-top: 20px;
+}
+input{
+	width: 300px;
+	border-color: white;
+	background-color: #1D1D1D;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.textAInscrire,.textOublie{
+	font-family: poppinsBold;
+}
+.email{
+	margin-top: 50px;
+}

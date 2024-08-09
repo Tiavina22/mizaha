@@ -1,0 +1,273 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+*{
+    font-family: poppins;
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #000;
+    padding-left: 10px;
+    overflow-y: hidden;
+}
+.headerApp{
+    height: 99.5%;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 99.5%;
+}
+.footerApp{
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: fixed;
+    width: 96.80%;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #1ED760;
+}
+.bindInscription{
+    background-color: white;
+    color: #000;
+    font-family: poppinsBold;
+    border-radius: 2000px;
+    text-decoration: none;
+}
+.btn_preference:hover{
+    cursor:pointeur;
+}
+.footerApp div p{
+    font-family: poppinsBold;
+}
+.left{
+    width: 22%;
+}
+.centre{
+    width: 58%;
+    margin-left: 10px;
+    border-radius: 10px; 
+    background-color: #1D1D1D;
+}
+.rightApp{
+    position: relative;
+    left: 10px;
+    width: 20%;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.leftTop{
+    background-color: #121212;
+    border-radius: 10px;  
+    height: 105px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.leftTop a{
+    text-decoration: none;
+    margin-left: 35px;
+}
+.leftFoot a{
+    text-decoration: none;
+    margin-left: 35px;
+}
+.leftTop div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.leftFoot div div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bindAccueil{
+    font-family: poppinsBold;
+}
+.bindRecherche, .bindEndroits, .bindHotels, .bindTransport, .bindGuides{
+    color:#CECECE;
+}
+.leftFoot{
+    background-color: #121212;
+    margin-top: 10px;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+.budgetSection{
+    margin-top: 15px;
+    line-height: 30px;
+}
+.preferenceSection{
+    margin-top: 10px;
+}
+.budgetSection, .preferenceSection{
+    background-color: #242424;
+    position: relative;
+    right: 12px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.title{
+    font-family: poppinsBold;
+    line-height: 20px;
+}
+.subtitle{
+    color: #CECECE;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+.budgetSection a, .preferenceSection a{
+    background-color: white;
+    color: black;
+    font-family: poppinsBold;
+    margin-right: 20%;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+.budgetSection a{
+    margin-right: 38%;
+    position: relative;
+    right: 40px;
+}
+.preferenceSection a{
+    margin-right: 17%;
+    position: relative;
+    right: 40px;
+}
+.legaleTexte{
+    margin-top: 350px;
+}
+.legaleTexte p{
+    color: #CECECE;
+    line-height: 20px;
+    margin-left: 12px;
+    font-size: 12px;
+}
+.budgetSection{
+    height: 150px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.preferenceSection{
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.buttonLanguage{
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+    width: 120px;
+    margin-top: 20px;
+    padding: 8px;
+}
+.buttonLanguage a{
+    position: relative;
+    right: 20px;
+}
+.buttonBindConnexion{
+    background-color: white;
+    color: black;
+    font-family: poppinsBold;
+    border-radius: 20px;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.buttonBindInscription{
+    font-family: poppinsBold;
+    margin-right: 10px;
+    padding: 15px;
+}
+.centreTop{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoImg{
+    width: 42px;
+    height: 42px;
+}
+.logoSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+/* Profil image */
+.profilImage{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.buttonSeDeconnecter{
+    position: relative;
+    margin-top: -7px;
+    margin-right: 15px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px;
+    line-height: 40px;
+    width: 38px;
+    height: 38px;
+    background-color:#101010;
+}
+button{
+    border: none;
+}
+.texteBienvenue{
+    margin-left: 25px;
+    font-size: 25px;
+}
+.getStarted{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.getStarted a{
+    background-color: #1ED760;
+    padding: 15px;
+    color:#fff;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: poppinsBold;
+}
+.centre{
+    height: 98.5%;
+}
+#home{
+    height: 88%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-y: scroll;
+}
